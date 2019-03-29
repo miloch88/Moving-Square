@@ -38,7 +38,7 @@ div.square {
     width: 5px;
 
     background-color: black;
-    transition: 2s;
+    transition: left 1s, top 1s 1s, width .5s .5s, height .5s .5s;
 }
 
 button:hover + div.square{
